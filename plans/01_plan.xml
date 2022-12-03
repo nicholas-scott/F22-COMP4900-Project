@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v6.dtd">
+
+<population>
+	<attributes>
+		<attribute name="coordinateReferenceSystem" class="java.lang.String" >EPSG:4326</attribute>
+	</attributes>
+
+<!-- ====================================================================== -->
+	<person id="1">
+		<plan selected= "yes">
+			<activity type="h" link="21" end_time="00:00:00">
+			</activity>
+			<leg mode="car">
+				<route  type="links" start_link="21" end_link="20" trav_time="undefined" vehicleRefId="null" >21 343 20 196 260 345 114 341 304 306 319 91</route> 
+				<!-- <route >21 343 20 196 260 345 114 341 304 306 319</route> -->
+			</leg>
+			<activity type="h" link="1">
+			</activity>
+		</plan>
+	</person>
+
+<!-- ====================================================================== -->
+
+</population>

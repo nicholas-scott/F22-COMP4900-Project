@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
+<!-- <param name="" value=""/> -->
+<config>
+
+    
+    <module name="network">
+        <!-- MatSim Book Section 2.1.3 Configure MatSim -->
+        <param name="inputNetworkFile" value="../networks/01_carleton_university_network.xml"/>
+    </module>
+    
+    <module name="plans">
+        <!-- MatSim Book Section 2.1.3 Configure MatSim -->
+        <param name="inputPlansFile" value="../plans/01_plan.xml"/>
+    </module>
+
+    <module name="global">
+        <!-- MatSim Book Section 2.3.3.3 Coordinate Systems -->
+		<param name="coordinateSystem" value="EPSG:4326" />
+
+        <!-- MatSim Book Section 4.3.2 controler config file section -->
+        <!-- Reccomends number of threads = # available cores -->
+        <param name="numberOfThreads" value="6"/>
+	</module>
+
+    <!-- From working example  -->
+    <module name="qsim">
+		<!-- "start/endTime" of MobSim (00:00:00 == take earliest activity time/ run as long as active vehicles exist) -->
+		<param name="startTime" value="00:00:00" />
+		<param name="endTime" value="00:00:00" />
+	
+		<param name = "snapshotperiod"	value = "00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
+	</module>
+
+
+    <module name="controler">
+              
+        <param name="outputDirectory" value="./output/01" />
+		<param name="firstIteration" value="0" />
+		<param name="lastIteration" value="0" />
+
+        <!-- MatSim Book Section 4.3.1 controler config file section -->
+        <param name="routingAlgorithmType" value="SpeedyALT"/>
+
+    </module>
+</config>
+

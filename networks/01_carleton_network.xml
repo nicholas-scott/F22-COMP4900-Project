@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v1.dtd">
+<network name="double roundabout">
+
+<!-- ====================================================================== -->
+
+	<nodes>
+		<node id="10" x="-1.0641346286571518E7" y="4578315.008257774" >
+		</node>
+		<node id="103" x="-1.0641166390798392E7" y="4579029.033705367" >
+		</node>
+		<node id="1034655587" x="-1.0640836350277636E7" y="4578549.406383143" >
+		</node>
+		<node id="105" x="-1.0641107967636477E7" y="4579016.894235225" >
+		</node>
+		<node id="106" x="-1.0641064139915232E7" y="4578962.576445531" >
+		</node>
+		<node id="109" x="-1.0641100110335393E7" y="4578955.451439617" >
+		</node>
+		<node id="110" x="-1.0640895739569934E7" y="4579000.493276221" >
+		</node>
+		<node id="112" x="-1.064123261378281E7" y="4578275.868455586" >
+		</node>
+		<node id="113" x="-1.0641460411384575E7" y="4578025.79315736" >
+		</node>
+		<node id="116" x="-1.0640976002917817E7" y="4578868.945599317" >
+		</node>
+		<node id="119" x="-1.0641442906879166E7" y="4578983.55701706" >
+		</node>
+		<node id="121" x="-1.0640984481551474E7" y="4579105.095155194" >
+		</node>
+		<node id="123" x="-1.0640983220835801E7" y="4578869.129554709" >
+		</node>
+		<node id="126" x="-1.0641317594884617E7" y="4579056.3171117315" >
+		</node>
+		<node id="129" x="-1.0641398908927476E7" y="4578234.192957767" >
+		</node>
+		<node id="134" x="-1.0641283165590748E7" y="4579021.223702304" >
+		</node>
+		<node id="135" x="-1.0641354698807735E7" y="4578221.801021589" >
+		</node>
+		<node id="139" x="-1.0641413101410665E7" y="4579047.547952877" >
+		</node>
+		<node id="14" x="-1.0641242722792326E7" y="4578980.000792282" >
+		</node>
+		<node id="143" x="-1.0640976002917817E7" y="4578868.945599317" >
+		</node>
+		<node id="1435531929" x="-1.0640922069745457E7" y="4578685.0472099865" >
+		</node>
+		<node id="1435531952" x="-1.0641066372531103E7" y="4578834.003091751" >
+		</node>
+		<node id="1435531957" x="-1.0641025979702871E7" y="4578848.385498138" >
+		</node>
+		<node id="1435531963" x="-1.0641091113753488E7" y="4578825.467327473" >
+		</node>
+		<node id="1435531967" x="-1.064074445407072E7" y="4578923.823960722" >
+		</node>
+		<node id="1435862896" x="-1.064100794260217E7" y="4578299.709448111" >
+		</node>
+		<node id="1435894707" x="-1.064100814204943E7" y="4578494.344371004" >
+		</node>
+		<node id="144" x="-1.0641404900690503E7" y="4578940.377453974" >
+		</node>
+		<node id="15" x="-1.0641330059938174E7" y="4579069.02260693" >
+		</node>
+		<node id="159" x="-1.064121697733475E7" y="4578953.758723915" >
+		</node>
+		<node id="168" x="-1.0641089888758399E7" y="4578465.082400405" >
+		</node>
+		<node id="174" x="-1.0641211749952665E7" y="4578285.108358351" >
+		</node>
+		<node id="175" x="-1.0641133436148703E7" y="4579048.4585797" >
+		</node>
+		<node id="177" x="-1.064097199034592E7" y="4579090.371531166" >
+		</node>
+		<node id="183" x="-1.064099879401905E7" y="4578862.5653867405" >
+		</node>
+		<node id="192" x="-1.0641306536251634E7" y="4579045.045165914" >
+		</node>
+		<node id="194" x="-1.0641021713147098E7" y="4579204.7989924215" >
+		</node>
+		<node id="200" x="-1.0640999235261593E7" y="4579122.4856368285" >
+		</node>
+		<node id="201" x="-1.0640958772505138E7" y="4579074.791408234" >
+		</node>
+		<node id="203" x="-1.064112137861652E7" y="4579033.515103772" >
+		</node>
+		<node id="213" x="-1.0641079381011443E7" y="4578981.465464518" >
+		</node>
+		<node id="219" x="-1.0641294815293841E7" y="4579033.098119535" >
+		</node>
+		<node id="22" x="-1.064139157937125E7" y="4578925.24284655" >
+		</node>
+		<node id="222" x="-1.0641182347206151E7" y="4578958.774509683" >
+		</node>
+		<node id="224" x="-1.0640418513946516E7" y="4578626.1054442385" >
+		</node>
+		<node id="226" x="-1.0641364730574245E7" y="4578286.6826994335" >
+		</node>
+		<node id="228" x="-1.0641323121808765E7" y="4578235.785433752" >
+		</node>
+		<node id="236" x="-1.0641202728554614E7" y="4578939.2350953715" >
+		</node>
+		<node id="239" x="-1.0641331417800376E7" y="4578856.892126938" >
+		</node>
+		<node id="253" x="-1.0641166892840171E7" y="4578902.708136563" >
+		</node>
+		<node id="254" x="-1.0641312453300186E7" y="4578835.346192943" >
+		</node>
+		<node id="257" x="-1.0641381694283877E7" y="4578260.630515753" >
+		</node>
+		<node id="258" x="-1.0641210519044759E7" y="4578283.768995031" >
+		</node>
+		<node id="259" x="-1.0641518759240668E7" y="4577991.784429493" >
+		</node>
+		<node id="2700659985" x="-1.0640959866711581E7" y="4578320.711547543" >
+		</node>
+		<node id="271" x="-1.064126936537132E7" y="4579007.157286874" >
+		</node>
+		<node id="276" x="-1.0641316785568276E7" y="4578360.314713255" >
+		</node>
+		<node id="28" x="-1.0641160246391898E7" y="4579081.685795493" >
+		</node>
+		<node id="280" x="-1.0641342625200834E7" y="4578869.6250704955" >
+		</node>
+		<node id="2903430423" x="-1.0641277974619301E7" y="4578432.201042206" >
+		</node>
+		<node id="291" x="-1.0641432387673499E7" y="4578971.605944862" >
+		</node>
+		<node id="2924096375" x="-1.064076270206267E7" y="4578462.102072432" >
+		</node>
+		<node id="294" x="-1.0641255116591182E7" y="4578992.633658331" >
+		</node>
+		<node id="3051541081" x="-1.0641281403488923E7" y="4578417.663562069" >
+		</node>
+		<node id="311" x="-1.0641331537877806E7" y="4578337.658709002" >
+		</node>
+		<node id="317" x="-1.0641263003291762E7" y="4578262.409943615" >
+		</node>
+		<node id="32" x="-1.064144317310221E7" y="4578982.985448737" >
+		</node>
+		<node id="339" x="-1.0641188857080486E7" y="4578925.0960507905" >
+		</node>
+		<node id="348" x="-1.0641118276527645E7" y="4578525.40718835" >
+		</node>
+		<node id="36" x="-1.0641093741626158E7" y="4578999.263260703" >
+		</node>
+		<node id="37" x="-1.0641355855404876E7" y="4578884.656160173" >
+		</node>
+		<node id="3713648360" x="-1.0641474732117135E7" y="4578117.746749531" >
+		</node>
+		<node id="3812033283" x="-1.0641310673567012E7" y="4578113.069589257" >
+		</node>
+		<node id="4" x="-1.0641010469168585E7" y="4578532.9136252375" >
+		</node>
+		<node id="41" x="-1.064128944391134E7" y="4578250.700264604" >
+		</node>
+		<node id="4354549145" x="-1.0640893188547729E7" y="4578313.292837413" >
+		</node>
+		<node id="4590513953" x="-1.0641276255721737E7" y="4578448.371223536" >
+		</node>
+		<node id="4830826124" x="-1.0640564569763584E7" y="4578762.534172044" >
+		</node>
+		<node id="49" x="-1.0641004483384844E7" y="4578888.641256125" >
+		</node>
+		<node id="4972990088" x="-1.0640941563546572E7" y="4578877.61079198" >
+		</node>
+		<node id="50" x="-1.0641207325122338E7" y="4578943.92032748" >
+		</node>
+		<node id="5157889159" x="-1.0640934824926661E7" y="4578329.145622725" >
+		</node>
+		<node id="53" x="-1.0640976002917817E7" y="4578868.945599317" >
+		</node>
+		<node id="5320657488" x="-1.0640972104132168E7" y="4578832.095328196" >
+		</node>
+		<node id="57" x="-1.064094553736352E7" y="4579059.190892471" >
+		</node>
+		<node id="60" x="-1.0641424547562484E7" y="4579022.973604505" >
+		</node>
+		<node id="62" x="-1.0640930485633833E7" y="4579041.449129446" >
+		</node>
+		<node id="63" x="-1.0641222238225548E7" y="4579001.499696247" >
+		</node>
+		<node id="68" x="-1.0641434428034998E7" y="4579001.760695789" >
+		</node>
+		<node id="6819845949" x="-1.0640862113429695E7" y="4578580.493824082" >
+		</node>
+		<node id="69" x="-1.064134252499173E7" y="4579081.728102129" >
+		</node>
+		<node id="70" x="-1.0641013298157474E7" y="4579139.061842447" >
+		</node>
+		<node id="7010355498" x="-1.0640941901799483E7" y="4578743.873178082" >
+		</node>
+		<node id="7010355503" x="-1.0640619608893743E7" y="4578812.869294536" >
+		</node>
+		<node id="7010355508" x="-1.0640706821559282E7" y="4578783.227071695" >
+		</node>
+		<node id="71" x="-1.0641106251577036E7" y="4578499.8538386235" >
+		</node>
+		<node id="74" x="-1.0640975698714944E7" y="4578869.02213894" >
+		</node>
+		<node id="75" x="-1.0641382720394664E7" y="4578209.3911842415" >
+		</node>
+		<node id="76" x="-1.0641155957762549E7" y="4578927.442706203" >
+		</node>
+		<node id="7964597061" x="-1.0640357894721042E7" y="4578569.8732454525" >
+		</node>
+		<node id="80" x="-1.0641442544191455E7" y="4578983.1449605655" >
+		</node>
+		<node id="81" x="-1.0641428162612565E7" y="4578189.266323567" >
+		</node>
+		<node id="84" x="-1.0641146893691914E7" y="4579065.137156207" >
+		</node>
+		<node id="8581420062" x="-1.0640946726221954E7" y="4578757.684907675" >
+		</node>
+		<node id="8581420063" x="-1.064087738094983E7" y="4578753.950050438" >
+		</node>
+		<node id="89" x="-1.064091488027731E7" y="4579023.054795827" >
+		</node>
+		<node id="90" x="-1.0641048988699496E7" y="4578943.798819714" >
+		</node>
+		<node id="901064785" x="-1.0641010361083189E7" y="4578531.287913343" >
+		</node>
+		<node id="901065373" x="-1.0640769852159984E7" y="4578947.631164109" >
+		</node>
+		<node id="901067177" x="-1.0640105732796228E7" y="4578318.186465884" >
+		</node>
+		<node id="901067409" x="-1.0640859402061619E7" y="4578323.329989138" >
+		</node>
+		<node id="901068481" x="-1.0641013371166946E7" y="4578576.562568158" >
+		</node>
+		<node id="901068674" x="-1.0640273553783461E7" y="4578487.840570786" >
+		</node>
+		<node id="901069328" x="-1.0640513698542872E7" y="4578714.40151041" >
+		</node>
+		<node id="901069574" x="-1.0641301890028412E7" y="4578383.1906849025" >
+		</node>
+		<node id="901070712" x="-1.0640821153958846E7" y="4578926.35320755" >
+		</node>
+		<node id="91" x="-1.0641379800971936E7" y="4578911.861180194" >
+		</node>
+		<node id="92" x="-1.0641419272892257E7" y="4578956.705989251" >
+		</node>
+		<node id="9370739420" x="-1.0641001132159634E7" y="4578856.909300045" >
+		</node>
+		<node id="9370739423" x="-1.0640966882847639E7" y="4578853.194254722" >
+		</node>
+		<node id="9370739424" x="-1.0640963380275741E7" y="4578859.105052365" >
+		</node>
+		<node id="9370739431" x="-1.064097654576426E7" y="4578868.809015261" >
+		</node>
+		<node id="9370739436" x="-1.064098741269009E7" y="4578848.597112086" >
+		</node>
+		<node id="96" x="-1.0641368502456266E7" y="4578899.02471889" >
+		</node>
+		<node id="98" x="-1.0641229371133607E7" y="4578966.391589964" >
+		</node>
+	</nodes>
+
+<!-- ====================================================================== -->
+
+	<links capperiod="01:00:00" effectivecellsize="7.5" effectivelanewidth="3.75">
+		<link id="0" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="103" from="36" to="57" length="159.86189199924942" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="107" from="3812033283" to="259" length="240.8521072358558" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="109" from="4590513953" to="2903430423" length="16.26552474197364" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >463836610</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="11" from="8581420063" to="7010355498" length="65.30405572389432" freespeed="12.5" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >924632856</attribute>
+				<attribute name="type" class="java.lang.String" >unclassified</attribute>
+			</attributes>
+		</link>
+		<link id="110" from="2903430423" to="4590513953" length="16.26552474197364" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >463836610</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="114" to="9370739420" from="183" length="6.120311927505752" freespeed="8.3333" capacity="600.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="117" from="123" to="49" length="28.858317413058572" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="118" from="901068481" to="4590513953" length="349.4915552381521" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >76422398</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="119" from="4590513953" to="901068481" length="349.4915552381521" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >76422398</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="12" from="7010355498" to="8581420063" length="65.30405572389432" freespeed="12.5" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >924632856</attribute>
+				<attribute name="type" class="java.lang.String" >unclassified</attribute>
+			</attributes>
+		</link>
+		<link id="122" from="75" to="129" length="29.61750436221581" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="123" from="4830826124" to="901069328" length="70.03441287169741" freespeed="16.666666666666668" capacity="6000.0" permlanes="4.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >490908991</attribute>
+				<attribute name="type" class="java.lang.String" >primary</attribute>
+			</attributes>
+		</link>
+		<link id="129" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="131" from="317" to="311" length="101.78097158329783" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="134" from="119" to="254" length="197.44514340524407" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="137" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="138" from="175" to="121" length="159.35863239679844" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="141" from="213" to="62" length="160.5237475633542" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="146" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="148" from="69" to="139" length="78.4175586999738" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="15" from="9370739423" to="9370739424" length="7.034444522978246" freespeed="6.944444444444445" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1016688284</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="156" from="96" to="98" length="154.58272951166327" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="158" from="37" to="159" length="155.12022007916187" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="16" from="49" to="28" length="248.04900432498263" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="16000" from="28" to="49" length="248.04900432498263" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="164" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="167" from="7964597061" to="901068674" length="117.66170647008673" freespeed="16.666666666666668" capacity="6000.0" permlanes="3.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >880435926</attribute>
+				<attribute name="type" class="java.lang.String" >trunk</attribute>
+			</attributes>
+		</link>
+		<link id="168" from="1435531963" to="901068481" length="268.63525860667227" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >538113727</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="170" from="1034655587" to="6819845949" length="40.37535288905901" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >880435924</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="171" from="6819845949" to="1034655587" length="40.37535288905901" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >880435924</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="172" from="3812033283" to="1435862896" length="356.7640994931305" freespeed="8.333333333333334" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >538113725</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="173" from="1435862896" to="3812033283" length="356.7640994931305" freespeed="8.333333333333334" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >538113725</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="174" from="90" to="110" length="163.3999911566421" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="176" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="183" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="185" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="19" from="4972990088" to="901070712" length="129.90312352306321" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1015917697</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="192" from="139" to="32" length="71.22235304505135" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="193" from="135" to="257" length="47.29149341232052" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="195" from="228" to="226" length="65.74055839822287" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="196" from="4972990088" to="9370739431" length="36.10014086662363" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >538113728</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="2" from="9370739424" to="9370739431" length="17.653496572341147" freespeed="6.944444444444445" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1016688283</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="20" from="901070712" to="4972990088" length="129.90312352306321" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1015917697</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="201" from="901065373" to="1435531967" length="34.811602758266396" freespeed="16.666666666666668" capacity="4500.0" permlanes="3.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >305214699</attribute>
+				<attribute name="type" class="java.lang.String" >primary</attribute>
+			</attributes>
+		</link>
+		<link id="206" from="1435894707" to="5157889159" length="185.48458084501414" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >76421201</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="21"  from="194" to="901065373" length="359.95728739493006" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="21000"  from="901065373" to="194" length="359.95728739493006" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+
+		<link id="211" from="49" to="183" length="26.689320846918775" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="216" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="22" from="9370739436" to="5320657488" length="22.51039813613327" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1015917699</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="221" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="222" from="239" to="339" length="158.0358632859569" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="223" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="226" from="3713648360" to="113" length="93.06205722096816" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="227" from="9370739420" to="9370739436" length="16.89114138353031" freespeed="6.944444444444445" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1015917694</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="23" from="9370739424" to="4972990088" length="28.721682386374717" freespeed="11.11111111111111" capacity="1200.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1015917698</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="230" from="5320657488" to="9370739423" length="21.73537615680511" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1015917690</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="235" from="76" to="109" length="62.477390049423335" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="236" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="237" from="70" to="110" length="181.71755295079865" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="238" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="249" from="81" to="174" length="236.6857304454448" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="250" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="251" from="901069574" to="3713648360" length="329.9960645714479" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >301043954</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="252" from="3713648360" to="901069574" length="329.9960645714479" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >301043954</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="253" from="2903430423" to="3051541081" length="14.936398701976508" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >301043956</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="254" from="3051541081" to="2903430423" length="14.936398701976508" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >301043956</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="256" from="1435862896" to="2700659985" length="52.463124540269824" freespeed="8.333333333333334" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >264387278</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="257" from="2700659985" to="1435862896" length="52.463124540269824" freespeed="8.333333333333334" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >264387278</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="258" from="901067409" to="2924096375" length="241.39281275476867" freespeed="6.944444444444445" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >264387279</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="259" from="2924096375" to="901067409" length="241.39281275476867" freespeed="6.944444444444445" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >264387279</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="260" from="9370739431" to="123" length="6.6827633220391425" freespeed="8.3333" capacity="600.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="261" from="71" to="4" length="101.32728783386115" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="266" from="222" to="76" length="40.964431437095534" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="270" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="272" from="53" to="9370739431" length="0.5597655447305313" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="277" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="28" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="281" from="291" to="219" length="150.68990407710217" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="282" from="92" to="134" length="150.62447617061716" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="291" from="901069328" to="7964597061" length="212.59516011283105" freespeed="16.666666666666668" capacity="4500.0" permlanes="3.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >305214720</attribute>
+				<attribute name="type" class="java.lang.String" >primary</attribute>
+			</attributes>
+		</link>
+		<link id="294" from="68" to="126" length="128.94335015227472" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="295" from="106" to="89" length="161.04679558162172" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="296" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="298" from="1435531929" to="7010355498" length="62.079035776453" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298108</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="299" from="7010355498" to="1435531929" length="62.079035776453" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298108</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="3" from="6819845949" to="1435531929" length="121.77901842399669" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >76421261</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="300" from="7010355498" to="8581420062" length="14.630822166004908" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298108</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="301" from="8581420062" to="7010355498" length="14.630822166004908" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298108</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="302" from="8581420062" to="5320657488" length="78.63999696587581" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298108</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="303" from="5320657488" to="8581420062" length="78.63999696587581" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298108</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="304" from="1435531957" to="1435531952" length="42.87696568145147" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298110</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="305" from="41" to="10" length="85.82893452438515" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="306" from="1435531952" to="1435531963" length="26.17250489047065" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130298111</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="310" from="74" to="9370739431" length="0.873449624774207" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="314" from="50" to="222" length="29.061022452030585" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="319" from="1435531963" to="69" length="358.9947009939576" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="335" from="60" to="15" length="105.11147307530273" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="338" from="22" to="294" length="152.19596530866087" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="34" from="80" to="192" length="149.43157335912505" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="341" from="9370739420" to="1435531957" length="26.26925687520369" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >130331839</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="342" from="901070712" to="901065373" length="55.53972823635064" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >305941312</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="343" from="901065373" to="901070712" length="55.53972823635064" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >305941312</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="345" from="123" to="183" length="16.90006916117484" freespeed="8.3333" capacity="600.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="346" from="28" to="70" length="157.75231967982342" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="352" from="112" to="276" length="119.23111969121067" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="353" from="63" to="103" length="62.26601623773097" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="36" from="901068481" to="901064785" length="45.37871818997842" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >726999887</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="366" from="901068674" to="901067177" length="238.63444652102464" freespeed="19.444444444444443" capacity="6000.0" permlanes="3.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >76421407</attribute>
+				<attribute name="type" class="java.lang.String" >trunk</attribute>
+			</attributes>
+		</link>
+		<link id="37" from="901064785" to="901068481" length="45.37871818997842" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >726999887</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="374" from="105" to="201" length="160.0352144302042" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="392" from="168" to="348" length="66.67042435337409" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="396" from="3051541081" to="901069574" length="40.48607422537132" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >587750051</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="397" from="901069574" to="3051541081" length="40.48607422537132" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >587750051</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="4" from="1435531929" to="6819845949" length="121.77901842399669" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >76421261</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="410" from="2924096375" to="1034655587" length="114.22250183435949" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >463644771</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="411" from="1034655587" to="2924096375" length="114.22250183435949" freespeed="11.11111111111111" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >463644771</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="414" from="2700659985" to="5157889159" length="26.49373310816215" freespeed="8.333333333333334" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >463644772</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="415" from="5157889159" to="2700659985" length="26.49373310816215" freespeed="8.333333333333334" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >463644772</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="43" from="103" to="109" length="99.03256842165118" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="446" from="1435531967" to="7010355503" length="167.0674820775187" freespeed="16.666666666666668" capacity="4500.0" permlanes="3.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >432365102</attribute>
+				<attribute name="type" class="java.lang.String" >primary</attribute>
+			</attributes>
+		</link>
+		<link id="447" from="7010355503" to="4830826124" length="74.5897505391976" freespeed="16.666666666666668" capacity="4500.0" permlanes="3.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >432365102</attribute>
+				<attribute name="type" class="java.lang.String" >primary</attribute>
+			</attributes>
+		</link>
+		<link id="47" from="203" to="177" length="159.8421369000738" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="50" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="53" from="144" to="271" length="151.09390731640423" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="57" from="116" to="9370739431" length="0.5597655447305313" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="6" from="143" to="9370739431" length="0.5597655447305313" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="60" from="2924096375" to="224" length="381.2644295832472" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="61" from="84" to="200" length="158.40410434859714" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="63" from="7010355508" to="7010355503" length="92.13152402140683" freespeed="12.5" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >749667991</attribute>
+				<attribute name="type" class="java.lang.String" >unclassified</attribute>
+			</attributes>
+		</link>
+		<link id="66" from="280" to="236" length="156.25820678256264" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="67" from="7010355508" to="8581420063" length="173.39270128202745" freespeed="12.5" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >749667989</attribute>
+				<attribute name="type" class="java.lang.String" >unclassified</attribute>
+			</attributes>
+		</link>
+		<link id="68" from="8581420063" to="7010355508" length="173.39270128202745" freespeed="12.5" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >749667989</attribute>
+				<attribute name="type" class="java.lang.String" >unclassified</attribute>
+			</attributes>
+		</link>
+		<link id="71" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="72" from="901064785" to="1435894707" length="37.011412862163795" freespeed="11.11111111111111" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >727563622</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="73" from="222" to="63" length="58.4528442030127" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="75" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="79" from="9370739431" to="9370739431" length="0.0" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="8" from="8581420063" to="8581420062" length="69.99981723267997" freespeed="12.5" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >924632863</attribute>
+				<attribute name="type" class="java.lang.String" >unclassified</attribute>
+			</attributes>
+		</link>
+		<link id="86" from="91" to="14" length="153.07982904660122" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="89" from="5157889159" to="4354549145" length="46.4971225471208" freespeed="6.944444444444445" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >637334960</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="9" from="9370739436" to="9370739423" length="21.500530098340022" freespeed="6.944444444444445" capacity="1200.0" permlanes="2.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >1016688282</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="90" from="4354549145" to="5157889159" length="46.4971225471208" freespeed="6.944444444444445" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >637334960</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="91" from="254" to="253" length="160.39164245017326" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="92" from="901069574" to="258" length="135.03084488597068" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+		<link id="95" from="4354549145" to="901067409" length="35.25754246278511" freespeed="6.944444444444445" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >637334959</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="96" from="901067409" to="4354549145" length="35.25754246278511" freespeed="6.944444444444445" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+			<attributes>
+				<attribute name="origid" class="java.lang.String" >637334959</attribute>
+				<attribute name="type" class="java.lang.String" >tertiary</attribute>
+			</attributes>
+		</link>
+		<link id="97" from="1435894707" to="168" length="86.8261904643596" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
+	</links>
+
+<!-- ====================================================================== -->
+
+</network>
