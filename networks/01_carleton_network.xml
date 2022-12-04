@@ -625,6 +625,8 @@
 		</link>
 		<link id="319" from="1435531963" to="69" length="358.9947009939576" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
 		</link>
+		<link id="31900" from="69" to="1435531963" length="358.9947009939576" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
+		</link>
 		<link id="335" from="60" to="15" length="105.11147307530273" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
 		</link>
 		<link id="338" from="22" to="294" length="152.19596530866087" freespeed="8.3333" capacity="600.0" permlanes="1.0" oneway="1" modes="car" >
