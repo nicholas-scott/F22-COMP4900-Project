@@ -12,7 +12,7 @@
 			<activity type="h" link="21" end_time="00:00:00">
 			</activity>
 			<leg mode="car">
-				<route  type="links" start_link="21" end_link="20" trav_time="undefined" vehicleRefId="null" >21 343 20 196 260 345 114 341 304 306 319 91</route> 
+				<route  type="links" start_link="21" end_link="319" trav_time="undefined" vehicleRefId="null" >21 343 20 196 260 345 114 341 304 306 319</route> 
 				<!-- <route >21 343 20 196 260 345 114 341 304 306 319</route> -->
 			</leg>
 			<activity type="h" link="1">
