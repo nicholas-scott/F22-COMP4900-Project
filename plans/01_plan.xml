@@ -14,21 +14,17 @@
 		</plan>
 	</person>
 
-	<!-- <person id="2">
+	<person id="2">
 		<plan selected= "yes">
-			<activity type="h" x="915193.8332873716" y="5040218.4705511825" link="535" end_time="00:00:05">
+			<activity type="h" x="915193.8332873716" y="5040218.4705511825" link="535" end_time="00:00:10">
 			</activity>
 			<leg mode="car">
-				<route  type="links" start_link="535" end_link="456">535 512 35 29 296 20 309 438 456</route>
 			</leg>
-			<activity type="h" >
+			<activity type="w" x="915004.6429510808" y="5039865.06775599">
 			</activity>
 		</plan>
-	</person> -->
-
-
-
-
+	</person>
+	
 <!-- ====================================================================== -->
 
 </population>

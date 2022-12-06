@@ -18,7 +18,7 @@
 
         <!-- MatSim Book Section 4.3.2 controler config file section -->
         <!-- Reccomends number of threads = # available cores -->
-        <param name="numberOfThreads" value="6"/>
+        <param name="numberOfThreads" value="1"/>
 	</module>
 
     <module name="planCalcScore">
