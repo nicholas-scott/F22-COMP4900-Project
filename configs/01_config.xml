@@ -2,11 +2,9 @@
 <!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
 <!-- <param name="" value=""/> -->
 <config>
-
-
     <module name="network">
         <!-- MatSim Book Section 2.1.3 Configure MatSim -->
-        <param name="inputNetworkFile" value="../networks/01_carleton_university_network.xml"/>
+        <param name="inputNetworkFile" value="../networks/01_carleton_network.xml"/>
     </module>
 
     <module name="plans">
@@ -23,25 +21,28 @@
         <param name="numberOfThreads" value="6"/>
 	</module>
 
-    <!-- From working example  -->
-    <module name="qsim">
-		<!-- "start/endTime" of MobSim (00:00:00 == take earliest activity time/ run as long as active vehicles exist) -->
-		<param name="startTime" value="00:00:00" />
-		<param name="endTime" value="00:00:00" />
-
-		<param name = "snapshotperiod"	value = "00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
+    <module name="planCalcScore">
+        <parameterset type="activityParams" >
+			<param name="activityType"    value="h" /> <!-- home -->
+			<param name="priority"        value="1" />
+			<param name="typicalDuration" value="12:00:00" />
+		</parameterset>
+		<parameterset type="activityParams" >
+			<param name="activityType"    value="w" /> <!-- work -->
+			<param name="priority"        value="1" />
+			<param name="typicalDuration" value="08:00:00" />
+		</parameterset>
 	</module>
 
-
     <module name="controler">
-
-        <param name="outputDirectory" value="./output/01" />
+        <param name="outputDirectory" value="../output/01" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="0" />
 
         <!-- MatSim Book Section 4.3.1 controler config file section -->
-        <param name="routingAlgorithmType" value="SpeedyALT"/>
+        <!-- <param name="routingAlgorithmType" value="SpeedyALT"/> -->
 
     </module>
+
 </config>
 
