@@ -1,25 +1,30 @@
 import re
-import random
+import random 
 import time
 
 ##TODO:  Make the parking spots be chosen based on parking capacity.
 
 ## On run this will overwrite thisplans  file.
 generatedPlanFile = '../plans/01_plan.xml'
-networkXMLFile = '../networks/01_carleton_network.xml'
+networkXMLFile = '../networks/01-double-round-network.xml'
 randomSeed = 4900
-
+plansGenerated = 500
 # The node id's of nodes representing where people start their
 # journey at the start of the day, and where they will end their journey.
-homeStart = [1435066125, 901063900, 1435066119, 901068597]
-homeEnd = [905117452, 901069328, 901063167, 901068597]
+# Bronson North, Sunnyside, Bronson South, Colonel By South
+homeStartIds = [901065319, 6818021169, 9451397933, 5171288980]
+homeEndIds = [901057238, 6818021169, 901068674, 5171288980]
 
-#parkingCapacity = [900,900,900,900,1200,1200,200,200,300,300,600]
+#P6 + P18, P7, P5  P3, P9, UC, P1 (lib above+underground)
+parkingCapacity=[1700, 350, 205, 265, 850, 50, 243]
+parkingIds=[5590646577, 9451397933, 1034655817, 1435788939, 1435894774, 10199274343, 5707081812]
+parkingInd= [i for i in range(len(parkingIds))]
 
-# The node id's of nodes representing where people will park at Carleton
-# 0, 1 Athletics, 2, 3 field house, 4, 5 P4 , 6, 7 uc parking, 8 co op parking, 9 south lib parking, Garage 9
-parking = [8581420024, 1034655817, 9451397931, 9451397931, 3071803288, 5590646581, 10199274341, 10199274342, 1435788933, 5707082427, 2924096375]
+parkingSum = sum(parkingCapacity)
+parkingProb = [value / parkingSum for value in parkingCapacity] ## a proportion of all parking spots on campus  
 
+
+# P6, Red House, Field House, p3, p9, UC, lib
 
 class Node:
   def __init__(self, x, y):
@@ -29,7 +34,7 @@ class Node:
 ## Open network file to retrieve node information
 file1 = open(networkXMLFile, 'r')
 Lines = file1.readlines()
-## Key is node idea, value is Node
+## Key is node idea, value is Node 
 allNodes = {}
 
 for line in Lines:
@@ -45,27 +50,29 @@ file1.close()
 
 
 ## Generate the plans
+## Using an xml writter would be cleaner.
 f = open(generatedPlanFile, "w+")
 f.write('<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v6.dtd">\n<population>\n')
 
 random.seed(randomSeed)
 
-for id in range(500):
-    home = random.randint(0, len(homeStart) -1)
-    work = random.randint(0, len(parking) -1)   ## this can be changed to account for parking lot capacity
+for id in range(plansGenerated):
+    home = random.randint(0, len(homeStartIds) -1)
+    work = random.choices(parkingInd, weights=parkingProb)[0]
     currTime = time.gmtime(id)                  ## This spawns them every second. Perhaps it can be tweeked
     timeString = f'{currTime.tm_hour:02d}:{currTime.tm_min:02d}:{currTime.tm_sec:02d}'
+    timeSpentHours= random.randint(1, 8)        ## 1 to 8 hours
     f.write(f'\t<person id="{id}">\n')
     f.write(f'\t\t<plan selected= "yes">\n')
-    f.write(f'\t\t\t<activity type="h" x="{allNodes[homeStart[home]].x}" y="{allNodes[homeStart[home]].y}" end_time="{timeString}">\n')
+    f.write(f'\t\t\t<activity type="h" x="{allNodes[homeStartIds[home]].x}" y="{allNodes[homeStartIds[home]].y}" end_time="{timeString}">\n')
     f.write(f'\t\t\t</activity>\n')
     f.write(f'\t\t\t<leg mode="car">\n')
     f.write(f'\t\t\t</leg>\n')
-    f.write(f'\t\t\t<activity type="w" x="{allNodes[parking[work]].x}" y="{allNodes[parking[work]].y}" max_dur="04:00:00">\n')
+    f.write(f'\t\t\t<activity type="w" x="{allNodes[parkingIds[work]].x}" y="{allNodes[parkingIds[work]].y}" max_dur="0{timeSpentHours}:00:00">\n')
     f.write(f'\t\t\t</activity>\n')
     f.write(f'\t\t\t<leg mode="car">\n')
     f.write(f'\t\t\t</leg>\n')
-    f.write(f'\t\t\t<activity type="h" x="{allNodes[homeEnd[home]].x}" y="{allNodes[homeEnd[home]].y}" >\n')
+    f.write(f'\t\t\t<activity type="h" x="{allNodes[homeEndIds[home]].x}" y="{allNodes[homeEndIds[home]].y}" >\n')
     f.write(f'\t\t\t</activity>\n')
     f.write(f'\t\t</plan>\n')
     f.write(f'\t</person>\n')
