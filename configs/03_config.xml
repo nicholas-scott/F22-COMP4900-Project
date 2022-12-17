@@ -4,19 +4,19 @@
 <config>
     <module name="network">
         <!-- MatSim Book Section 2.1.3 Configure MatSim -->
-        <param name="inputNetworkFile" value="../networks/01_carleton_network.xml"/>
+        <param name="inputNetworkFile" value="../networks/03-4-way-intersection-network.xml"/>
     </module>
 
     <module name="plans">
         <!-- MatSim Book Section 2.1.3 Configure MatSim -->
-        <param name="inputPlansFile" value="../plans/01_plan.xml"/>
+        <param name="inputPlansFile" value="../plans/03_plan.xml"/>
     </module>
 
     <module name="signalsystems">
 		<param name="useSignalsystems" value="true" />
-		<param name="signalsystems" value="./01-signals/signal_systems.xml" />
-		<param name="signalcontrol" value="./01-signals/signal_control.xml" />
-		<param name="signalgroups" value="./01-signals/signal_groups.xml" />
+		<param name="signalsystems" value="./03-signals/signal_systems.xml" />
+		<param name="signalcontrol" value="./03-signals/signal_control.xml" />
+		<param name="signalgroups" value="./03-signals/signal_groups.xml" />
 	</module>
 
     <module name="global">
@@ -42,7 +42,7 @@
 	</module>
 
     <module name="controler">
-        <param name="outputDirectory" value="../output/01" />
+        <param name="outputDirectory" value="../output/03" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="0" />
 

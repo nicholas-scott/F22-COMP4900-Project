@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<signalSystems xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/signalSystems_v2.0.xsd" xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <signalSystem id="exampleSignalSystem">
+        <signals>
+            <signal linkIdRef="416" id="bronsonSouth"/>
+            <signal linkIdRef="417" id="bronsonNorth"/>
+            <signal linkIdRef="494" id="bronsonEast"/>
+            <signal linkIdRef="454" id="bronsonWest"/>
+        </signals>
+    </signalSystem>
+</signalSystems>
