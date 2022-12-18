@@ -11,11 +11,11 @@ import time
 # generatedPlanFile = '../plans/02_plan.xml'
 # networkXMLFile = '../networks/02-1-point-5-lane-roundabout-network.xml'
 
-# generatedPlanFile = '../plans/03_plan.xml'
-# networkXMLFile = '../networks/03-4-way-intersection-network.xml'
-
-generatedPlanFile = '../plans/04_plan.xml'
+generatedPlanFile = '../plans/03_plan.xml'
 networkXMLFile = '../networks/03-4-way-intersection-network.xml'
+
+# generatedPlanFile = '../plans/04_plan.xml'
+# networkXMLFile = '../networks/03-4-way-intersection-network.xml'
 
 
 randomSeed = 4900
@@ -57,7 +57,7 @@ for line in Lines:
     if(len(values) == 3):
         allNodes[int(values[0])] = Node(values[1], values[2])
 
-file1.close()
+file1.close() 
 
 
 ## Generate the plans
