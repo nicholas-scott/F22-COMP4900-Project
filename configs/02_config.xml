@@ -12,13 +12,6 @@
         <param name="inputPlansFile" value="../plans/02_plan.xml"/>
     </module>
 
-    <module name="signalsystems">
-		<param name="useSignalsystems" value="true" />
-		<param name="signalsystems" value="./02-signals/signal_systems.xml" />
-		<param name="signalcontrol" value="./02-signals/signal_control.xml" />
-		<param name="signalgroups" value="./02-signals/signal_groups.xml" />
-	</module>
-
     <module name="global">
         <!-- MatSim Book Section 2.3.3.3 Coordinate Systems -->
 		<param name="coordinateSystem" value="EPSG:26917" />
