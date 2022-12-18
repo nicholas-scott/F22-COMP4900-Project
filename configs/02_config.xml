@@ -37,7 +37,7 @@
     <module name="controler">
         <param name="outputDirectory" value="../output/04" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="0" />
+		<param name="lastIteration" value="20" />
 
         <!-- MatSim Book Section 4.3.1 controler config file section -->
         <!-- <param name="routingAlgorithmType" value="SpeedyALT"/> -->
