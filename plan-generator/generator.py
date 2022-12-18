@@ -5,10 +5,21 @@ import time
 ##TODO:  Make the parking spots be chosen based on parking capacity.
 
 ## On run this will overwrite thisplans  file.
-generatedPlanFile = '../plans/01_plan.xml'
-networkXMLFile = '../networks/01-double-round-network.xml'
+# generatedPlanFile = '../plans/01_plan.xml'
+# networkXMLFile = '../networks/01-double-round-network.xml'
+
+# generatedPlanFile = '../plans/02_plan.xml'
+# networkXMLFile = '../networks/02-1-point-5-lane-roundabout-network.xml'
+
+# generatedPlanFile = '../plans/03_plan.xml'
+# networkXMLFile = '../networks/03-4-way-intersection-network.xml'
+
+generatedPlanFile = '../plans/04_plan.xml'
+networkXMLFile = '../networks/03-4-way-intersection-network.xml'
+
+
 randomSeed = 4900
-plansGenerated = 500
+plansGenerated = 10
 # The node id's of nodes representing where people start their
 # journey at the start of the day, and where they will end their journey.
 # Bronson North, Sunnyside, Bronson South, Colonel By South
