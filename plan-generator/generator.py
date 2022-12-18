@@ -3,19 +3,16 @@ import random
 import time
 
 ##TODO:  Make the parking spots be chosen based on parking capacity.
- 
 ## On run this will overwrite thisplans  file.
 generatedPlanFile = '../plans/01_plan.xml'
 networkXMLFile = '../networks/01-double-round-network.xml'
  
-# generatedPlanFile = '../plans/02_plan.xml'
-# networkXMLFile = '../networks/02-1-point-5-lane-roundabout-network.xml'
+generatedPlanFile = '../plans/02_plan.xml'
+networkXMLFile = '../networks/02-1-point-5-lane-roundabout-network.xml'
 
-# generatedPlanFile = '../plans/03_plan.xml'
-# networkXMLFile = '../networks/03-4-way-intersection-network.xml'
-
-# generatedPlanFile = '../plans/04_plan.xml'
-# networkXMLFile = '../networks/03-4-way-intersection-network.xml'
+generatedPlanFile = '../plans/03_plan.xml'
+networkXMLFile = '../networks/03-4-way-intersection-network.xml'
+ 
 
 secondsIn4Hours = 14400
 driverId = 0 
@@ -27,6 +24,9 @@ plansGenerated = 10
 # Bronson North, Sunnyside, Bronson South, Colonel By South
 homeStartIds = [901065319, 6818021169, 9451397933, 5171288980]
 homeEndIds = [901057238, 6818021169, 901068674, 5171288980]
+
+homeStart2Ids = [901065319, 901065319, 6818021169, 6818021169, 9451397933, 901057238, 5171288980,901057848, 5171288980, 6818021169]
+homeEnd2Ids = [901068674, 6818021169, 901057238, 901068674, 901057238, 6818021169, 901057848, 5171288980, 6818021169, 5171288980]
 
 #P6 + P18, P7, P5  P3, P9, UC, P1 (lib above+underground)
 parkingCapacity=[1700, 350, 205, 265, 850, 50, 243]
@@ -66,6 +66,21 @@ def generate(id):
     f.write(f'\t\t</plan>\n')
     f.write(f'\t</person>\n') 
 
+def generate2(id):
+    home = random.randint(0, len(homeStart2Ids) -1)
+    work = random.choices(parkingInd, weights=parkingProb)[0]
+    currTime = time.gmtime(id)                  ## This spawns them every second. Perhaps it can be tweeked
+    timeString = f'{currTime.tm_hour:02d}:{currTime.tm_min:02d}:{currTime.tm_sec:02d}'
+    f.write(f'\t<person id="{driverId}">\n')
+    f.write(f'\t\t<plan selected= "yes">\n')
+    f.write(f'\t\t\t<activity type="h" x="{allNodes[homeStart2Ids[home]].x}" y="{allNodes[homeStart2Ids[home]].y}" end_time="{timeString}">\n')
+    f.write(f'\t\t\t</activity>\n')
+    f.write(f'\t\t\t<leg mode="car">\n')
+    f.write(f'\t\t\t</leg>\n')
+    f.write(f'\t\t\t<activity type="h" x="{allNodes[homeEnd2Ids[home]].x}" y="{allNodes[homeEnd2Ids[home]].y}" >\n')
+    f.write(f'\t\t\t</activity>\n')
+    f.write(f'\t\t</plan>\n')
+    f.write(f'\t</person>\n') 
     
 
 ## Open network file to retrieve node information
@@ -93,22 +108,39 @@ f.write('<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE population SYSTEM "ht
 
 random.seed(randomSeed)
 
-
+  
 for second in range(secondsIn4Hours):
     currTime = time.gmtime(second)
+    isCarleton = random.randint(0, 1)
     if(second < 3600 and second % 3 == 0):
-        generate(second)
+        if(isCarleton):
+            generate(second)
+        else:
+            generate2(second)
         driverId += 1
+        
     elif(second < 7200 and second >= 3600 and second % 8 == 0):
-        generate(second)
+        if(isCarleton):
+            generate(second)
+        else:
+            generate2(second)
         driverId += 1
+       
     elif(second < 10800 and second >= 7200 and second % 15 == 0):
-        generate(second)
+        if(isCarleton):
+            generate(second)
+        else:
+            generate2(second)
         driverId += 1
+      
     elif(second % 8 == 0):
-        generate(second)
+        if(isCarleton):
+            generate(second)
+        else:
+            generate2(second)
         driverId += 1
-
+        
+    
 
 f.write(f'</population>')
 
